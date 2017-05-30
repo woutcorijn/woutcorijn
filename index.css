@@ -196,7 +196,7 @@ ul a {
 
 #left {
 	float:left;
-	width:20px;
+	width:400px;
 	
 }
 
@@ -239,22 +239,19 @@ ul a {
     box-shadow: 10px 15px 15px #d9d9d9;	
 }
 
-#itext {
+.itext {
 	width:200px;
 	float:left;
 	margin-top:20px;
-	margin-left:-55px;
+	margin-left:-50px;
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-decoration:none;
 	
 }
 
-#wgma {
-	width:200px;
+.sitename {
 	float:left;
-	margin-top:20px;
-	margin-left:-15px;
 	font-family: 'Montserrat', sans-serif;
 	color:black;
 	text-decoration:none;
@@ -340,9 +337,9 @@ ul a {
 
 @media screen and (max-width: 1370px) {
 	body {
-    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-    zoom: 0.8; /* Other non-webkit browsers */
-    zoom: 80%; /* Webkit browsers */
+    -moz-transform: scale(0.75, 0.75); /* Moz-browsers */
+    zoom: 0.75; /* Other non-webkit browsers */
+    zoom: 75%; /* Webkit browsers */
 }
 }
 
@@ -427,10 +424,11 @@ script {
 
 #sitesmobile {
 	
+
 }
 .imgmobile {
 	text-align:center;
-	margin-top:100px;
+	margin-top:00px;
 	 margin-left: auto;
     margin-right: auto;
 	width:700px;
@@ -443,7 +441,7 @@ script {
 
 #itextmobile {
 	font-family: 'Montserrat', sans-serif;
-	font-size:35px;
+	font-size:30px;
 	color:black;
 	text-decoration:none;
 }
