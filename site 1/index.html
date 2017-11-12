@@ -1,0 +1,100 @@
+<html>
+		<head>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97831800-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		<link rel="icon" href="images/tablogo.png">
+		<title>Wout Corijn</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+		</head>
+		<body>
+		<div id="page">
+		<p id="top">-</p>
+		<p id="you_found_the_easter_egg">Wout Corijn</p>
+		<ul>
+		<li><a href="https://www.instagram.com/woutcorijn"><img id="instalogo" src="images/logo.png"></a></li>
+		<li><a href="https://www.youtube.com/woutcorijn"><img id="ytlogo" src="images/ytlogo.png"></a></li>
+		<li><a href="http://steamcommunity.com/id/woutco"><img id="steamlogo" src="images/steamlogo.png"></a></li>
+		</ul>
+		<a id="easteregg" href="#you_found_the_easter_egg">easter egg<a>
+		<div id="button"><a href="#bottom" id="projects">projects</a></div>
+		
+		<div id="sites">
+		<div id="right">
+		<a href="http://www.gifsfordays.tk/" target="_blank"><img class="img" src="images/gifsfordays.JPG"></img></a>
+		<a href="http://www.gifsfordays.tk/" target="_blank"><p class="sitename">Gifsfordays</p></a>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><img class="img" src="images/Aaripotatoes.JPG"></img></a>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><p class="sitename" >Aari Potatoes</p></a>
+		<a target="_blank"><img class="img" src="images/white.jpg"></img></a>
+		<a target="_blank"><p class="sitename" >#</p></a>
+		</div>
+		<div id="left">
+		<a href="http://www.kljaalter.be/" target="_blank"><img class="img1" src="images/kljaalter.JPG"></img></a>
+		<a href="http://www.kljaalter.be/" target="_blank"><p class="sitename">KLJ Aalter</p></a>
+		<a onclick="myFunction()"><img class="img1" src="images/woutcorijn.JPG"></img></a>
+		<a onclick="myFunction()"><p class="sitename">Wout Corijn</p></a>
+		<a href="wgma\index.html" target="_blank"><img class="img1" src="images/wgma.JPG"></img></a>
+		<a href="wgma\index.html" target="_blank"><p class="sitename" >We geven muco adem</p></a>
+		
+		
+		<div id="snackbar">you are already on this page</div>
+		<script>
+		function myFunction() {
+			var x = document.getElementById("snackbar")
+			x.className = "show";
+			setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+		}
+		</script>
+		
+		</div>
+		</div>
+		<a href="#top"><img id="arrow" src="images/arrows.png"></a>
+		
+		
+		<div id="sitesmobile">
+		<a href="http://www.kljaalter.be/" target="_blank"><img class="imgmobile" src="images/kljaalter.JPG"></img></a>
+		<a href="http://www.kljaalter.be/" target="_blank"><p id="itextmobile" >KLJ Aalter</p></a>
+		<a href="http://www.gifsfordays.tk/" target="_blank"><img class="imgmobile" src="images/gifsfordays.JPG"></img></a>
+		<a href="http://www.gifsfordays.tk/" target="_blank"><p id="itextmobile">Gifsfordays</p></a>
+		<a href="http://www.wegevenmucoadem.ga/" target="_blank"><img class="imgmobile" src="images/wgma.JPG"></img></a>
+		<a href="http://www.wegevenmucoadem.ga/" target="_blank"><p id="itextmobile">We geven muco adem</p></a>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><img class="imgmobile" src="images/Aaripotatoes.JPG"></img></a>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><p id="itextmobile">Aari Potatoes</p></a>
+		<a href="http://www.woutcorijn.cf/" ><img class="imgmobile" src="images/woutcorijn.JPG"></img></a>
+		<a href="http://www.woutcorijn.cf/" ><p id="itextmobile">Wout Corijn</p></a>
+		</div>
+		
+		<p id="bottom" class="footer" >Site developed by Wout Corijn</p>
+		</div>
+		</body>
+</html>

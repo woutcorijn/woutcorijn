@@ -1,0 +1,69 @@
+<html>
+		<head>
+		<link rel="icon" href="">
+		<title>Wout Corijn</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+		</head>
+		<body>
+		<div id="page">
+		<p class="sam">W O U T   C O R I J N</p>
+		<script>
+  $(function(){
+    var $container = $('#container');
+	var $insta = $('#instalogo');
+	var $yt = $('#ytlogo');
+	var $st = $('#stlogo');
+
+    $container.mouseover(function(){
+      var rgb = [
+        parseInt(Math.random() * 255),
+        parseInt(Math.random() * 255),
+        parseInt(Math.random() * 255)
+      ];
+      $container
+   	  .css('background-color', 'rgb(' + rgb.join(',') + ')')
+        .css('color', 'rgb(' + [255-rgb[0], 255-rgb[1], 255-rgb[2]].join(',') + ')');
+		
+	   $insta
+	   .css('border-bottom-color', 'rgb(' + rgb.join(',') + ')')
+        .css('color', 'rgb(' + [255-rgb[0], 255-rgb[1], 255-rgb[2]].join(',') + ')');
+		
+		$yt
+	   .css('border-bottom-color', 'rgb(' + rgb.join(',') + ')')
+        .css('color', 'rgb(' + [255-rgb[0], 255-rgb[1], 255-rgb[2]].join(',') + ')');
+		
+		$st
+	   .css('border-bottom-color', 'rgb(' + rgb.join(',') + ')')
+        .css('color', 'rgb(' + [255-rgb[0], 255-rgb[1], 255-rgb[2]].join(',') + ')');
+
+		
+  });
+   });
+		</script>
+		<a id="easter" href="#" onmouseover="myTimer=setTimeout('myFunction()', 10000);" onmouseout="clearTimeout(myTimer);"><div id="container"></div></a>
+		<ul>
+		<li><a href="https://www.instagram.com/woutcorijn/"><img id="instalogo" src="images/logo.png"></a></li>
+		<li><a href="https://www.youtube.com/woutcorijn"><img id="ytlogo" src="images/ytlogo.png"></a></li>
+		<li><a href="http://steamcommunity.com/id/woutco"><img id="stlogo" src="images/steamlogo.png"></a></li>
+		</ul>
+        <a href="http://www.kljaalter.be/" target="_blank"><img class="sites" id="klj" src="images/kljaalter.JPG"></a><br>
+		<a href="http://www.kljaalter.be/" target="_blank"><p class="sitetext">kljaalter<p>
+		<a href="http://www.gifsfordays.tk/" target="_blank"><img class="sites" id="" src="images/gifsfordays.JPG"></a><br>
+		<a href="http://www.gifsfordays.tk/" target="_blank"><p class="sitetext">gifsforday</p></a>
+		<a onclick="snackbar()"><img class="sites" id="" src="images/woutcorijn.JPG"></a><br>
+		<a onclick="snackbar()"><p class="sitetext">Wout Corijn</p></a>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><img class="sites" id="" src="images/Aaripotatoes.JPG"></a><br>
+		<a href="http://www.aaripotatoes.cf/" target="_blank"><p class="sitetext">Aari potatoes</p></a>
+		<a href="wgma\index.html" target="_blank"><img class="sites" src="images/wgma.JPG"></img></a><br>
+		<a href="wgma\index.html" target="_blank"><p class="sitetext" >We geven muco adem</p></a>
+		
+		<div id="snackbar">you are already on this page</div>
+		
+		<p class="footer" >Site developed by <a href="http://www.woutcorijn.cf/" id="wout">Wout Corijn<a/></p>
+		</div>
+		<script src="js.js"></script>
+		</body>
+</html>
