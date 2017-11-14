@@ -235,5 +235,10 @@ ul a {
 /* mobile */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
-	
+	#klj {
+	margin-top:1000px;
+}
+#page {
+margin-top:600px;
+}
 }
