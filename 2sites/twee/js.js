@@ -1,7 +1,7 @@
 document.designMode = "off"
 
     		function myFunction() {
-			var Open = window.open("hover.html", "_self");
+			var Open = window.open("2sites/twee/hover.html", "_self");
 		}
 
 	function snackbar() {
