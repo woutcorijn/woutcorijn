@@ -1,7 +1,8 @@
 
 
 body {
-
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
 }
 
 a {
@@ -15,6 +16,15 @@ a {
 	text-align:center;
 }
 
+#projects {
+margin-top:35px;
+width:100%;
+position:absolute;
+text-align:center;
+text-decoration: underline;
+font-size:18px;
+}
+
 
 /* body::-webkit-scrollbar {  
    This is the magic bit 
@@ -23,7 +33,6 @@ a {
 .sam {
 	margin-top:220px;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif;
 	font-size:70px;
 	white-space:pre;
 }
@@ -295,5 +304,14 @@ margin-top:600px;
 }
 .sitetext {
 	font-size:30px;
+}
+#projects {
+margin-top:120px;
+width:100%;
+position:absolute;
+text-align:center;
+overflow-x: hidden;
+text-decoration: underline;
+font-size:40px;
 }
 }
