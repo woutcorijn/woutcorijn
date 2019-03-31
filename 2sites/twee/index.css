@@ -73,6 +73,34 @@ a {
 	border-bottom-color:black;
 }
 
+#ghlogo {
+	width:auto;
+	height:45px;
+	padding:10px;
+	border-bottom-style: none;
+	margin-bottom:2px;
+}
+#ghlogo:hover {
+	margin-bottom:-1px;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color:black;
+}
+
+#twlogo {
+	width:auto;
+	height:45px;
+	padding:10px;
+	border-bottom-style: none;
+	margin-bottom:2px;
+}
+#twlogo:hover {
+	margin-bottom:-1px;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color:black;
+}
+
 
 
 ul {
