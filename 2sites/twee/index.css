@@ -17,10 +17,10 @@ a {
 }
 
 #projects {
-margin-top:35px;
-width:100%;
-position:absolute;
-text-align:center;
+display: block;
+text-align: center;
+width: 100%;
+margin-top:50px;
 text-decoration: underline;
 font-size:18px;
 }
