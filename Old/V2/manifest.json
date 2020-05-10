@@ -3,17 +3,17 @@
   "name": "Wout Corijn",
     "icons": [
     {
-      "src": "2sites\twee\images\tablogo.png",
+      "src": "images\tablogo.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "2sites\twee\images\tablogo.png",
+      "src": "images\tablogo.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "2sites\twee\images\tablogo.png",
+      "src": "images\tablogo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
