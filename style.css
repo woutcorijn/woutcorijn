@@ -3,6 +3,9 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a:link {
+color:black;
+}
 
 a:active {
 color:black;
