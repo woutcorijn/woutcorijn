@@ -122,10 +122,11 @@ and (max-device-width : 1024px)
   #header {
     width:90%;
     height: 135px;
+
   }
 
   #Content {
-    width:100%;
+    width:90%;
     margin-top: 150px;
   }
 
