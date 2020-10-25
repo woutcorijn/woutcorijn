@@ -8,6 +8,11 @@ a:active {
 color:black;
 }
 
+ a:visited  {
+   color:black;
+ }
+
+
 #main {
   margin: 0 auto;
   width: 900px;
@@ -44,11 +49,11 @@ padding: 0;
 #nav li {
   padding: 0 4px 0 4px;
   display: inline;
+  font-size: 18px;
 }
 
 #nav li a {
   color:black;
-  font-size: 18px;
 }
 
 #Content {
@@ -107,12 +112,18 @@ and (max-device-width : 1024px)
     width:90%;
   }
 
+  #header_border {
+  height: 135px;
+  }
+
   #header {
     width:90%;
+    height: 135px;
   }
 
   #Content {
     width:100%;
+    margin-top: 150px;
   }
 
   .Project_img {
