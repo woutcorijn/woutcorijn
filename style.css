@@ -86,6 +86,10 @@ margin: 110px 0 50px 0;
 color: #000000;
 }
 
+.note {
+  font-size: 20px;
+}
+
 .Date {
   margin: 0;
   font-size: 15px;
