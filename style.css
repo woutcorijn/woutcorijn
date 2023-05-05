@@ -103,12 +103,13 @@ color: #000000;
   cursor: pointer;
 }
 
-.left {
-  float:left;
+#flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.right {
-  float:right;
+#flexContainer > div {
 }
 
 /* mobile */
